@@ -44,3 +44,32 @@ The raw, unprocessed dataset is usually the starting point of every significant 
 - Financial data can be categorized into fundamental, market, analytics, and alternative data, each with its own characteristics and challenges.
 - While fundamental and market data are more accessible and widely used, analytics and alternative data offer unique opportunities for insights but require advanced processing capabilities.
 - Understanding the nuances of each data type can aid in developing robust financial strategies and models.
+
+
+
+
+## Why Data Bars?
+
+**Purpose**:
+- **Machine Learning on Unstructured Data**: To utilize machine learning (ML) algorithms effectively, it is crucial to transform unstructured data into a structured format.
+- **Regularized Format**: This transformation involves parsing the data, extracting valuable information, and storing it in a consistent and structured manner.
+
+**Key Information Collected**:
+1. **Timestamp**: The specific time at which data is recorded.
+2. **Volume-weighted average price (VWAP)**: A trading benchmark calculated by dividing the total dollar value traded by the total volume traded over a particular time period.
+3. **Open Price**: The first price at which a security is traded at the beginning of the trading session.
+4. **Close Price**: The last price at which a security is traded at the end of the trading session.
+5. **High Price**: The highest price at which a security is traded during a specific time period.
+6. **Low Price**: The lowest price at which a security is traded during a specific time period.
+7. **Volume Traded**: The total number of shares or contracts traded for a security during a specified time period.
+
+**Terminology**:
+- **Bars**: In finance, the rows of extracted, structured, and ordered data are referred to as "bars." Each bar represents a summarized form of the data over a specified time period, such as a minute, hour, or day.
+
+**Significance**:
+- **Standardized Data Representation**: Bars help in standardizing the representation of financial data, making it easier to apply various analytical and ML techniques.
+- **Enhanced Data Analysis**: By structuring data into bars, researchers and analysts can perform more precise and insightful analyses, leading to better decision-making in financial contexts.
+
+- **Data bars** are essential for converting unstructured financial data into a structured format suitable for machine learning.
+- They capture critical trading metrics such as timestamp, VWAP, open, close, high, low prices, and volume traded.
+- This structured representation, known as "bars," is fundamental in financial data analysis and algorithmic trading.
